@@ -1,7 +1,10 @@
-""" In the function option1 we are payed 100$ per day for 10 days so that totals to 1000$ which we return
-In the function option2 we are payed 1$ on the first day and it doubles all the way to the 10th day so we sum up
-from 2^0 to 2^9 and return it
-Or main function determine which option is better by comparing the sums
- of fuctions option1 or option2 is better
- if option1 and option2 is the same print pays the same
- otherwise print option1 or option2 is better, it does this using if conditions."""
+
+In the main function I open the Final.txt file and then I get all the values on each line
+which are the grades and put them into a list. They are all strings so i iterate through 
+the list convert the individual grades in strings to integers and put them into another filke.
+Then I add up the numbers in integers list to get the overall sum and divide by the length of the list
+to get the average grade.
+
+In the calculate_percent_above_average I take the average and the list of integers and I do comparisons 
+to find out the total number of people with above average grades and divide that as a percentage of the total 
+number of grades and round to find the number of people with above average grades.
